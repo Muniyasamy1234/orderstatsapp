@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+  text-align: center;
+  color: black;
+  background: rgb(108,172,226);
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.App {
+  padding: 10px;
+}
+
+.small-icon {
+  font-size: 12px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 28px;
+  border-radius: 19px;
+}
+
+.box {
+  display: block;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon1 {
+  border-radius: 81%;
+  background-color: rgba(226, 149, 73, 1);
+  color: white;
+  padding: 5px;
+  width: 39px;
+  height: 42px;
+}
+
+.icon2 {
+  padding: 5px;
+  width: 39px;
+  height: 42px;
+  border-radius: 81%;
+  background-color: rgba(118, 199, 151, 1);
+  color: white;
+}
+
+.icon3 {
+  padding: 5px;
+  width: 39px;
+  height: 42px;
+  border-radius: 81%;
+  background-color:rgba(218, 80, 64, 1);
+  color: white;
+}
+
+.icon4 {
+  padding: 5px;
+  width: 39px;
+  height: 42px;
+  border-radius: 81%;
+  background-color:rgba(246, 195, 93, 1);
+  color: white;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.icon1:hover {
+  transform: scale(1.5);
+  transition: transform .6s;
+}
+.icon2:hover {
+  transform: scale(1.5);
+  transition: transform .6s;
+}
+.icon3:hover {
+  transform: scale(1.5);
+  transition: transform .6s;
+}
+.icon4:hover {
+  transform: scale(1.5);
+  transition: transform .6s;
+}
+
+
+.ooorder {
+  display: flex;
+  margin-left: 19px;
+  color: rgba(195, 108, 96, 1);
+}
+.ooorders {
+  display: flex;
+  margin-left: 19px;
+  color:rgba(171, 209, 189, 1);
+}
+
+@media (max-width:993px) {
+  .boxes{
+    display: block;
+  }
+  .box{
+    margin-bottom: 26px;
+  }
+  h2{
+    margin-right: 17px;
+  }
+}
+
+@media (min-width:720px) and (max-width:1440px) {
+  h2{
+    margin-right: 15px;
+  }
+}

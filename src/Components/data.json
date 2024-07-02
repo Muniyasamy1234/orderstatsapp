@@ -1,0 +1,20 @@
+{
+    "statistics": [
+        {
+            "name": "Revenue",
+            "money": "$2.047"
+        },
+        {
+            "name": "Orders",
+            "money": "356"
+        },
+        {
+            "name": "Dine in",
+            "money": "220"
+        },
+        {
+            "name": "Take away",
+            "money": "135"
+        }
+    ]
+}
